@@ -1,0 +1,56 @@
+CREATE DATABASE Ferreteria;
+
+USE Ferreteria;
+
+CREATE TABLE Cliente (
+    ClienteID INT NOT NULL,
+    Nombre VARCHAR(50),
+    Apellido VARCHAR(50),
+    Num_telefonico VARCHAR(14),
+    Contraseña VARCHAR(15),
+    Correo_electronico VARCHAR(100),
+    Direccion VARCHAR(100),
+    PRIMARY KEY (ClienteID)
+);
+
+CREATE TABLE Producto (
+    ProductoID INT NOT NULL,
+    Precio INT,
+    Descripcion VARCHAR(200),
+    Nombre_producto VARCHAR(100),
+    Stock INT,
+    PRIMARY KEY (ProductoID)
+);
+
+CREATE TABLE Carrito_compras (
+    CarritoID INT NOT NULL,
+    Cantidad_productos INT,
+    Monto_total DECIMAL(10,2),
+    ClienteID INT NOT NULL,
+    ProductoID INT NOT NULL,
+    PRIMARY KEY (CarritoID),
+    FOREIGN KEY (ClienteID) REFERENCES Cliente(ClienteID),
+    FOREIGN KEY (ProductoID) REFERENCES Producto(ProductoID)
+);
+
+CREATE TABLE Pedido (
+    PedidoID INT NOT NULL,
+    Monto_total DECIMAL(10,2),
+    Fecha_pedido DATE,
+    Estado_pedido VARCHAR(15),
+    ClienteID INT NOT NULL,
+    CarritoID INT NOT NULL,
+    PRIMARY KEY (PedidoID),
+    FOREIGN KEY (ClienteID) REFERENCES Cliente(ClienteID),
+    FOREIGN KEY (CarritoID) REFERENCES Carrito_compras(CarritoID)
+);
+
+CREATE TABLE Pago (
+    PagoID INT NOT NULL,
+    Estado_pago VARCHAR(15),
+    Metodo_pago VARCHAR(10),
+    Monto_pago DECIMAL(10,2),
+    PedidoID INT NOT NULL,
+    PRIMARY KEY (PagoID),
+    FOREIGN KEY (PedidoID) REFERENCES Pedido(PedidoID)
+);
