@@ -1,20 +1,20 @@
 [
     {
-        "id": "manuales-1",
+        "id": "manuales-01",
         "titulo": "Destornillador plano mediano",
         "imagen": "./img/manuales/1.jpg",
         "categoria": {
-            "nombre": "manuales",
+            "nombre": "Manuales",
             "id": "manuales"
         },
         "precio": 50
     },
     {
-        "id": "manuales-2",
+        "id": "manuales-02",
         "titulo": "Destornillador Phillips grande",
         "imagen": "./img/manuales/2.jpg",
         "categoria": {
-            "nombre": "manuales",
+            "nombre": "Manuales",
             "id": "manuales"
         },
         "precio": 60
@@ -22,9 +22,9 @@
     {
         "id": "manuales-3",
         "titulo": "Llave inglesa de 6 pulgadas",
-        "imagen": "./img/manuales/3.jpg",
+        "imagen": "./img/Manuales/3.jpg",
         "categoria": {
-            "nombre": "manuales",
+            "nombre": "Manuales",
             "id": "manuales"
         },
         "precio": 120
@@ -32,9 +32,9 @@
     {
         "id": "manuales-4",
         "titulo": "Llave inglesa de 8 pulgadas",
-        "imagen": "./img/manuales/4.jpg",
+        "imagen": "./img/Manuales/4.jpg",
         "categoria": {
-            "nombre": "manuales",
+            "nombre": "Manuales",
             "id": "manuales"
         },
         "precio": 150
@@ -42,9 +42,9 @@
     {
         "id": "manuales-5",
         "titulo": "Llave inglesa de 12 pulgadas",
-        "imagen": "./img/manuales/5.jpg",
+        "imagen": "./img/Manuales/5.jpg",
         "categoria": {
-            "nombre": "manuales",
+            "nombre": "Manuales",
             "id": "manuales"
         },
         "precio": 200
@@ -52,9 +52,9 @@
     {
         "id": "manuales-6",
         "titulo": "Alicate universal, mediano",
-        "imagen": "./img/manuales/6.jpg",
+        "imagen": "./imgManuales/6.jpg",
         "categoria": {
-            "nombre": "manuales",
+            "nombre": "Manuales",
             "id": "manuales"
         },
         "precio": 120
@@ -62,9 +62,9 @@
     {
         "id": "manuales-7",
         "titulo": "Alicate de corte pequeño",
-        "imagen": "./img/manuales/7.jpg",
+        "imagen": "./img/Manuales/7.jpg",
         "categoria": {
-            "nombre": "manuales",
+            "nombre": "Manuales",
             "id": "manuales"
         },
         "precio": 80
@@ -72,9 +72,9 @@
     {
         "id": "manuales-8",
         "titulo": "Alicate de presion grande",
-        "imagen": "./img/manuales/8.jpg",
+        "imagen": "./img/Manuales/8.jpg",
         "categoria": {
-            "nombre": "manuales",
+            "nombre": "Manuales",
             "id": "manuales"
         },
         "precio": 250
@@ -82,9 +82,9 @@
     {
         "id": "manuales-9",
         "titulo": "Martillo de carpintero de 400g",
-        "imagen": "./img/manuales/9.jpg",
+        "imagen": "./img/Manuales/9.jpg",
         "categoria": {
-            "nombre": "manuales",
+            "nombre": "Manuales",
             "id": "manuales"
         },
         "precio": 90
@@ -92,9 +92,9 @@
     {
         "id": "manuales-10",
         "titulo": "Llave inglesa de 8 pulgadas",
-        "imagen": "./img/manuales/10.jpg",
+        "imagen": "./img/Manuales/10.jpg",
         "categoria": {
-            "nombre": "manuales",
+            "nombre": "Manuales",
             "id": "manuales"
         },
         "precio": 70
@@ -102,9 +102,9 @@
     {
         "id": "medicion-1",
         "titulo": "Cinta metrica de 5m",
-        "imagen": "./img/medicion/1.jpg",
+        "imagen": "./img/Medicion/1.jpg",
         "categoria": {
-            "nombre": "medicion",
+            "nombre": "Medicion",
             "id": "medicion"
         },
         "precio": 40
@@ -112,9 +112,9 @@
     {
         "id": "medicion-2",
         "titulo": "Cinta metrica de 10m",
-        "imagen": "./img/medicion/2.jpg",
+        "imagen": "./img/Medicion/2.jpg",
         "categoria": {
-            "nombre": "medicion",
+            "nombre": "Medicion",
             "id": "medicion"
         },
         "precio": 70
@@ -122,9 +122,9 @@
     {
         "id": "medicion-3",
         "titulo": "Cinta metrica de 25m",
-        "imagen": "./img/medicion/3.jpg",
+        "imagen": "./img/Medicion/3.jpg",
         "categoria": {
-            "nombre": "medicion",
+            "nombre": "Medicion",
             "id": "medicion"
         },
         "precio": 200
@@ -132,9 +132,9 @@
     {
         "id": "medicion-4",
         "titulo": "Cinta metrica de 50m",
-        "imagen": "./img/medicion/4.jpg",
+        "imagen": "./img/Medicion/4.jpg",
         "categoria": {
-            "nombre": "medicion",
+            "nombre": "Medicion",
             "id": "medicion"
         },
         "precio": 800
@@ -142,9 +142,9 @@
     {
         "id": "corte-1",
         "titulo": "Serrucho para madera 18 pulgadas",
-        "imagen": "./img/corte/1.jpg",
+        "imagen": "./img/Corte/1.jpg",
         "categoria": {
-            "nombre": "corte",
+            "nombre": "Corte",
             "id": "corte"
         },
         "precio": 150
@@ -152,9 +152,9 @@
     {
         "id": "corte-2",
         "titulo": "Serrucho para madera 12 pulgadas",
-        "imagen": "./img/corte/2.jpg",
+        "imagen": "./img/Corte/2.jpg",
         "categoria": {
-            "nombre": "corte",
+            "nombre": "Corte",
             "id": "corte"
         },
         "precio": 120
@@ -162,9 +162,9 @@
     {
         "id": "corte-3",
         "titulo": "Cuchillo multiusos retractil",
-        "imagen": "./img/corte/3.jpg",
+        "imagen": "./img/Corte/3.jpg",
         "categoria": {
-            "nombre": "corte",
+            "nombre": "Corte",
             "id": "corte"
         },
         "precio": 50
@@ -172,9 +172,9 @@
     {
         "id": "corte-4",
         "titulo": "Cuchillo de hoja fija de 25mm",
-        "imagen": "./img/corte/4.jpg",
+        "imagen": "./img/Corte/4.jpg",
         "categoria": {
-            "nombre": "corte",
+            "nombre": "Corte",
             "id": "corte"
         },
         "precio": 80
@@ -182,9 +182,9 @@
     {
         "id": "jardineria-1",
         "titulo": "Tijeras de podar pequeñas",
-        "imagen": "./img/jardineria/1.jpg",
+        "imagen": "./img/Jardineria/1.jpg",
         "categoria": {
-            "nombre": "jardineria",
+            "nombre": "Jardineria",
             "id": "jardineria"
         },
         "precio": 150
@@ -192,9 +192,9 @@
     {
         "id": "jardineria-2",
         "titulo": "Tijeras de podar grandes",
-        "imagen": "./img/jardineria/2.jpg",
+        "imagen": "./img/Jardineria/2.jpg",
         "categoria": {
-            "nombre": "jardineria",
+            "nombre": "Jardineria",
             "id": "jardineria"
         },
         "precio": 250
@@ -202,9 +202,9 @@
     {
         "id": "taladro-1",
         "titulo": "Brocas para madera de 3mm",
-        "imagen": "./img/taladro/1.jpg",
+        "imagen": "./img/Taladro/1.jpg",
         "categoria": {
-            "nombre": "taladro",
+            "nombre": "Taladro",
             "id": "taladro"
         },
         "precio": 25
@@ -212,9 +212,9 @@
     {
         "id": "taladro-2",
         "titulo": "Brocas para metal de 5mm",
-        "imagen": "./img/taladro/2.jpg",
+        "imagen": "./img/Taladro/2.jpg",
         "categoria": {
-            "nombre": "taladro",
+            "nombre": "Taladro",
             "id": "taladro"
         },
         "precio": 30
@@ -222,9 +222,9 @@
     {
         "id": "taladro-3",
         "titulo": "Brocas para concreto de 10mm",
-        "imagen": "./img/taladro/3.jpg",
+        "imagen": "./img/Taladro/3.jpg",
         "categoria": {
-            "nombre": "taladro",
+            "nombre": "Taladro",
             "id": "taladro"
         },
         "precio": 40
@@ -232,9 +232,9 @@
     {
         "id": "fijacion-1",
         "titulo": "Clavos de acero de 1 pulgada",
-        "imagen": "./img/fijacion/1.jpg",
+        "imagen": "./img/Fijacion/1.jpg",
         "categoria": {
-            "nombre": "fijacion",
+            "nombre": "Fijacion",
             "id": "fijacion"
         },
         "precio": 30
@@ -242,9 +242,9 @@
     {
         "id": "fijacion-2",
         "titulo": "Tornillos para madera de 2 pulgadas",
-        "imagen": "./img/fijacion/2.jpg",
+        "imagen": "./img/Fijacion/2.jpg",
         "categoria": {
-            "nombre": "fijacion",
+            "nombre": "Fijacion",
             "id": "fijacion"
         },
         "precio": 80
@@ -252,9 +252,9 @@
     {
         "id": "adhesivos-1",
         "titulo": "Pegamento universal, 100g",
-        "imagen": "./img/adhesivos/1.jpg",
+        "imagen": "./img/Adhesivos/1.jpg",
         "categoria": {
-            "nombre": "adhesivos",
+            "nombre": "Adhesivos",
             "id": "adhesivos"
         },
         "precio": 40
@@ -262,9 +262,9 @@
     {
         "id": "adhesivos-2",
         "titulo": "Super Glue, 20g",
-        "imagen": "./img/adhesivos/2.jpg",
+        "imagen": "./img/Adhesivos/2.jpg",
         "categoria": {
-            "nombre": "adhesivos",
+            "nombre": "Adhesivos",
             "id": "adhesivos"
         },
         "precio": 25
@@ -272,9 +272,9 @@
     {
         "id": "adhesivos-3",
         "titulo": "Silicona en tubo, 100g",
-        "imagen": "./img/adhesivos/3.jpg",
+        "imagen": "./img/Adhesivos/3.jpg",
         "categoria": {
-            "nombre": "adhesivos",
+            "nombre": "Adhesivos",
             "id": "adhesivos"
         },
         "precio": 100
@@ -282,9 +282,9 @@
     {
         "id": "electrico-1",
         "titulo": "Bombilla LED 10W, blanca fria",
-        "imagen": "./img/electrico/1.jpg",
+        "imagen": "./img/Electrico/1.jpg",
         "categoria": {
-            "nombre": "electrico",
+            "nombre": "Electrico",
             "id": "electrico"
         },
         "precio": 50
@@ -292,9 +292,9 @@
     {
         "id": "electrico-2",
         "titulo": "Extension electrica, 5m, 3 tomas",
-        "imagen": "./img/electrico/2.jpg",
+        "imagen": "./img/Electrico/2.jpg",
         "categoria": {
-            "nombre": "electrico",
+            "nombre": "Electrico",
             "id": "electrico"
         },
         "precio": 150
@@ -302,9 +302,9 @@
     {
         "id": "varios-1",
         "titulo": "Cinta aislante negra, 19mm x 10m",
-        "imagen": "./img/varios/1.jpg",
+        "imagen": "./img/Varios/1.jpg",
         "categoria": {
-            "nombre": "varios",
+            "nombre": "Varios",
             "id": "varios"
         },
         "precio": 30
@@ -312,9 +312,9 @@
     {
         "id": "varios-2",
         "titulo": "Pintura en spray blanca, 400ml",
-        "imagen": "./img/varios/2.jpg",
+        "imagen": "./img/Varios/2.jpg",
         "categoria": {
-            "nombre": "varios",
+            "nombre": "Varios",
             "id": "varios"
         },
         "precio": 90
@@ -322,9 +322,9 @@
     {
         "id": "varios-3",
         "titulo": "Lija para madera, grano 80",
-        "imagen": "./img/varios/3.jpg",
+        "imagen": "./img/Varios/3.jpg",
         "categoria": {
-            "nombre": "varios",
+            "nombre": "Varios",
             "id": "varios"
         },
         "precio": 40
@@ -332,9 +332,9 @@
     {
         "id": "varios-4",
         "titulo": "Lija para metal, grano 120",
-        "imagen": "./img/varios/4.jpg",
+        "imagen": "./img/Varios/4.jpg",
         "categoria": {
-            "nombre": "varios",
+            "nombre": "Varios",
             "id": "varios"
         },
         "precio": 40
