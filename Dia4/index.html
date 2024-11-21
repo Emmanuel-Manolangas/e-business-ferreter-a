@@ -2,54 +2,66 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Silent Hill 2 - Historia y Descripción</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Ferretería E-business</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <div id="progress"></div>
-    <main>
-        <h1>Silent Hill 2: Una Inmersión en el Terror Psicológico</h1>
-        <p>
-            Desde su lanzamiento en 2001, <em>Silent Hill 2</em> ha sido aclamado como uno de los mejores juegos de terror de todos los tiempos. 
-            Desarrollado por Konami, este juego es un clásico del género survival horror que ha dejado una marca indeleble en la cultura de los videojuegos.
-        </p>
 
-        <h2>La Premisa</h2>
-        <p>
-            La historia de <em>Silent Hill 2</em> sigue a James Sunderland, quien recibe una misteriosa carta de su difunta esposa, Mary, 
-            instándolo a que la encuentre en Silent Hill, un pueblo envuelto en niebla y oscuridad. A pesar de la incredulidad de James, 
-            su desesperación lo lleva a emprender este viaje lleno de angustia y horror.
-        </p>
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">Ferretería E-business</h1>
+            
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo">Ferretería E-business</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="herramientas" class="boton-menu boton-categoria"><i class="bi bi-tools"></i> Herramientas</button>
+                    </li>
+                    <li>
+                        <button id="materiales" class="boton-menu boton-categoria"><i class="bi bi-bricks"></i> Materiales</button>
+                    </li>
+                    <li>
+                        <button id="electricos" class="boton-menu boton-categoria"><i class="bi bi-lightning-fill"></i> Eléctricos</button>
 
-        <h2>Exploración y Atmosfera</h2>
-        <p>
-            Una de las características más destacadas de <em>Silent Hill 2</em> es su atmósfera inquietante y opresiva. Los jugadores exploran 
-            los oscuros callejones, hospitales abandonados y otros lugares siniestros mientras luchan contra monstruos grotescos y resuelven 
-            enigmas perturbadores. La niebla omnipresente y la banda sonora inquietante contribuyen a crear una sensación de inquietud y paranoia constante.
-        </p>
-
-        <h2>Los Personajes</h2>
-        <p>
-            Los personajes de <em>Silent Hill 2</em> están profundamente desarrollados y llenos de complejidad. James Sunderland, el protagonista, 
-            lucha con su culpa y su dolor mientras busca a su esposa. Angela Orosco, una joven atormentada por su pasado, y Eddie Dombrowski, 
-            un hombre con problemas de ira, también desempeñan roles importantes en la historia, cada uno enfrentando sus propios demonios internos.
-        </p>
-
-        <h2>Los Temas</h2>
-        <p>
-            <em>Silent Hill 2</em> es más que un simple juego de terror; es una exploración profunda de temas como la culpa, el dolor, la pérdida y 
-            la redención. A medida que los jugadores descubren los oscuros secretos de Silent Hill y de sus propios personajes, se ven obligados 
-            a enfrentarse a sus propias emociones y a reflexionar sobre la naturaleza de la humanidad.
-        </p>
-
-        <h2>El Legado</h2>
-        <p>
-            A lo largo de los años, <em>Silent Hill 2</em> ha mantenido su estatus como un hito en la historia de los videojuegos. Su influencia 
-            se puede ver en numerosos juegos de terror contemporáneos, así como en películas y otros medios de entretenimiento. La capacidad 
-            del juego para sumergir a los jugadores en un mundo de pesadilla y hacerlos cuestionar su propia cordura sigue siendo tan impactante 
-            hoy como lo fue en el momento de su lanzamiento.
-        </p>
-    </main>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                        <a class="log-sign-in" href="./login.html">
+                            <i class="bi bi-person-fill"></i> Iniciar sesión
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2024 Ferretería E-business</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!-- Esto se va a rellenar con JS -->
+            </div>
+        </main>
+    </div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
