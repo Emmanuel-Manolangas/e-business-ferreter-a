@@ -1,182 +1,342 @@
 [
     {
-        "id": "abrigo-01",
-        "titulo": "Abrigo 01",
-        "imagen": "./img/abrigos/01.jpg",
+        "id": "manuales-1",
+        "titulo": "Destornillador plano mediano",
+        "imagen": "./img/manuales/1.jpg",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+            "nombre": "manuales",
+            "id": "manuales"
         },
-        "precio": 1000
+        "precio": 50
     },
     {
-        "id": "abrigo-02",
-        "titulo": "Abrigo 02",
-        "imagen": "./img/abrigos/02.jpg",
+        "id": "manuales-2",
+        "titulo": "Destornillador Phillips grande",
+        "imagen": "./img/manuales/2.jpg",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+            "nombre": "manuales",
+            "id": "manuales"
         },
-        "precio": 1000
+        "precio": 60
     },
     {
-        "id": "abrigo-03",
-        "titulo": "Abrigo 03",
-        "imagen": "./img/abrigos/03.jpg",
+        "id": "manuales-3",
+        "titulo": "Llave inglesa de 6 pulgadas",
+        "imagen": "./img/manuales/3.jpg",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+            "nombre": "manuales",
+            "id": "manuales"
         },
-        "precio": 1000
+        "precio": 120
     },
     {
-        "id": "abrigo-04",
-        "titulo": "Abrigo 04",
-        "imagen": "./img/abrigos/04.jpg",
+        "id": "manuales-4",
+        "titulo": "Llave inglesa de 8 pulgadas",
+        "imagen": "./img/manuales/4.jpg",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+            "nombre": "manuales",
+            "id": "manuales"
         },
-        "precio": 1000
+        "precio": 150
     },
     {
-        "id": "abrigo-05",
-        "titulo": "Abrigo 05",
-        "imagen": "./img/abrigos/05.jpg",
+        "id": "manuales-5",
+        "titulo": "Llave inglesa de 12 pulgadas",
+        "imagen": "./img/manuales/5.jpg",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+            "nombre": "manuales",
+            "id": "manuales"
         },
-        "precio": 1000
+        "precio": 200
+    },   
+    {
+        "id": "manuales-6",
+        "titulo": "Alicate universal, mediano",
+        "imagen": "./img/manuales/6.jpg",
+        "categoria": {
+            "nombre": "manuales",
+            "id": "manuales"
+        },
+        "precio": 120
     },
     {
-        "id": "camiseta-01",
-        "titulo": "Camiseta 01",
-        "imagen": "./img/camisetas/01.jpg",
+        "id": "manuales-7",
+        "titulo": "Alicate de corte pequeño",
+        "imagen": "./img/manuales/7.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "manuales",
+            "id": "manuales"
         },
-        "precio": 1000
+        "precio": 80
     },
     {
-        "id": "camiseta-02",
-        "titulo": "Camiseta 02",
-        "imagen": "./img/camisetas/02.jpg",
+        "id": "manuales-8",
+        "titulo": "Alicate de presion grande",
+        "imagen": "./img/manuales/8.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "manuales",
+            "id": "manuales"
         },
-        "precio": 1000
+        "precio": 250
     },
     {
-        "id": "camiseta-03",
-        "titulo": "Camiseta 03",
-        "imagen": "./img/camisetas/03.jpg",
+        "id": "manuales-9",
+        "titulo": "Martillo de carpintero de 400g",
+        "imagen": "./img/manuales/9.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "manuales",
+            "id": "manuales"
         },
-        "precio": 1000
+        "precio": 90
     },
     {
-        "id": "camiseta-04",
-        "titulo": "Camiseta 04",
-        "imagen": "./img/camisetas/04.jpg",
+        "id": "manuales-10",
+        "titulo": "Llave inglesa de 8 pulgadas",
+        "imagen": "./img/manuales/10.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "manuales",
+            "id": "manuales"
         },
-        "precio": 1000
+        "precio": 70
     },
     {
-        "id": "camiseta-05",
-        "titulo": "Camiseta 05",
-        "imagen": "./img/camisetas/05.jpg",
+        "id": "medicion-1",
+        "titulo": "Cinta metrica de 5m",
+        "imagen": "./img/medicion/1.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "medicion",
+            "id": "medicion"
         },
-        "precio": 1000
+        "precio": 40
     },
     {
-        "id": "camiseta-06",
-        "titulo": "Camiseta 06",
-        "imagen": "./img/camisetas/06.jpg",
+        "id": "medicion-2",
+        "titulo": "Cinta metrica de 10m",
+        "imagen": "./img/medicion/2.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "medicion",
+            "id": "medicion"
         },
-        "precio": 1000
+        "precio": 70
     },
     {
-        "id": "camiseta-07",
-        "titulo": "Camiseta 07",
-        "imagen": "./img/camisetas/07.jpg",
+        "id": "medicion-3",
+        "titulo": "Cinta metrica de 25m",
+        "imagen": "./img/medicion/3.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "medicion",
+            "id": "medicion"
         },
-        "precio": 1000
+        "precio": 200
     },
     {
-        "id": "camiseta-08",
-        "titulo": "Camiseta 08",
-        "imagen": "./img/camisetas/08.jpg",
+        "id": "medicion-4",
+        "titulo": "Cinta metrica de 50m",
+        "imagen": "./img/medicion/4.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "medicion",
+            "id": "medicion"
         },
-        "precio": 1000
+        "precio": 800
     },
     {
-        "id": "pantalon-01",
-        "titulo": "Pantalón 01",
-        "imagen": "./img/pantalones/01.jpg",
+        "id": "corte-1",
+        "titulo": "Serrucho para madera 18 pulgadas",
+        "imagen": "./img/corte/1.jpg",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "corte",
+            "id": "corte"
         },
-        "precio": 1000
+        "precio": 150
     },
     {
-        "id": "pantalon-02",
-        "titulo": "Pantalón 02",
-        "imagen": "./img/pantalones/02.jpg",
+        "id": "corte-2",
+        "titulo": "Serrucho para madera 12 pulgadas",
+        "imagen": "./img/corte/2.jpg",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "corte",
+            "id": "corte"
         },
-        "precio": 1000
+        "precio": 120
     },
     {
-        "id": "pantalon-03",
-        "titulo": "Pantalón 03",
-        "imagen": "./img/pantalones/03.jpg",
+        "id": "corte-3",
+        "titulo": "Cuchillo multiusos retractil",
+        "imagen": "./img/corte/3.jpg",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "corte",
+            "id": "corte"
         },
-        "precio": 1000
+        "precio": 50
     },
     {
-        "id": "pantalon-04",
-        "titulo": "Pantalón 04",
-        "imagen": "./img/pantalones/04.jpg",
+        "id": "corte-4",
+        "titulo": "Cuchillo de hoja fija de 25mm",
+        "imagen": "./img/corte/4.jpg",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "corte",
+            "id": "corte"
         },
-        "precio": 1000
+        "precio": 80
     },
     {
-        "id": "pantalon-05",
-        "titulo": "Pantalón 05",
-        "imagen": "./img/pantalones/05.jpg",
+        "id": "jardineria-1",
+        "titulo": "Tijeras de podar pequeñas",
+        "imagen": "./img/jardineria/1.jpg",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "jardineria",
+            "id": "jardineria"
         },
-        "precio": 1000
+        "precio": 150
+    },
+    {
+        "id": "jardineria-2",
+        "titulo": "Tijeras de podar grandes",
+        "imagen": "./img/jardineria/2.jpg",
+        "categoria": {
+            "nombre": "jardineria",
+            "id": "jardineria"
+        },
+        "precio": 250
+    },
+    {
+        "id": "taladro-1",
+        "titulo": "Brocas para madera de 3mm",
+        "imagen": "./img/taladro/1.jpg",
+        "categoria": {
+            "nombre": "taladro",
+            "id": "taladro"
+        },
+        "precio": 25
+    },
+    {
+        "id": "taladro-2",
+        "titulo": "Brocas para metal de 5mm",
+        "imagen": "./img/taladro/2.jpg",
+        "categoria": {
+            "nombre": "taladro",
+            "id": "taladro"
+        },
+        "precio": 30
+    },
+    {
+        "id": "taladro-3",
+        "titulo": "Brocas para concreto de 10mm",
+        "imagen": "./img/taladro/3.jpg",
+        "categoria": {
+            "nombre": "taladro",
+            "id": "taladro"
+        },
+        "precio": 40
+    },
+    {
+        "id": "fijacion-1",
+        "titulo": "Clavos de acero de 1 pulgada",
+        "imagen": "./img/fijacion/1.jpg",
+        "categoria": {
+            "nombre": "fijacion",
+            "id": "fijacion"
+        },
+        "precio": 30
+    },  
+    {
+        "id": "fijacion-2",
+        "titulo": "Tornillos para madera de 2 pulgadas",
+        "imagen": "./img/fijacion/2.jpg",
+        "categoria": {
+            "nombre": "fijacion",
+            "id": "fijacion"
+        },
+        "precio": 80
+    },
+    {
+        "id": "adhesivos-1",
+        "titulo": "Pegamento universal, 100g",
+        "imagen": "./img/adhesivos/1.jpg",
+        "categoria": {
+            "nombre": "adhesivos",
+            "id": "adhesivos"
+        },
+        "precio": 40
+    },  
+    {
+        "id": "adhesivos-2",
+        "titulo": "Super Glue, 20g",
+        "imagen": "./img/adhesivos/2.jpg",
+        "categoria": {
+            "nombre": "adhesivos",
+            "id": "adhesivos"
+        },
+        "precio": 25
+    },  
+    {
+        "id": "adhesivos-3",
+        "titulo": "Silicona en tubo, 100g",
+        "imagen": "./img/adhesivos/3.jpg",
+        "categoria": {
+            "nombre": "adhesivos",
+            "id": "adhesivos"
+        },
+        "precio": 100
+    },  
+    {
+        "id": "electrico-1",
+        "titulo": "Bombilla LED 10W, blanca fria",
+        "imagen": "./img/electrico/1.jpg",
+        "categoria": {
+            "nombre": "electrico",
+            "id": "electrico"
+        },
+        "precio": 50
+    },
+    {
+        "id": "electrico-2",
+        "titulo": "Extension electrica, 5m, 3 tomas",
+        "imagen": "./img/electrico/2.jpg",
+        "categoria": {
+            "nombre": "electrico",
+            "id": "electrico"
+        },
+        "precio": 150
+    }, 
+    {
+        "id": "varios-1",
+        "titulo": "Cinta aislante negra, 19mm x 10m",
+        "imagen": "./img/varios/1.jpg",
+        "categoria": {
+            "nombre": "varios",
+            "id": "varios"
+        },
+        "precio": 30
+    }, 
+    {
+        "id": "varios-2",
+        "titulo": "Pintura en spray blanca, 400ml",
+        "imagen": "./img/varios/2.jpg",
+        "categoria": {
+            "nombre": "varios",
+            "id": "varios"
+        },
+        "precio": 90
+    }, 
+    {
+        "id": "varios-3",
+        "titulo": "Lija para madera, grano 80",
+        "imagen": "./img/varios/3.jpg",
+        "categoria": {
+            "nombre": "varios",
+            "id": "varios"
+        },
+        "precio": 40
+    }, 
+    {
+        "id": "varios-4",
+        "titulo": "Lija para metal, grano 120",
+        "imagen": "./img/varios/4.jpg",
+        "categoria": {
+            "nombre": "varios",
+            "id": "varios"
+        },
+        "precio": 40
     }
 ]
