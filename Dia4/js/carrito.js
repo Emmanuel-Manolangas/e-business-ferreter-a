@@ -140,3 +140,65 @@ function comprarCarrito() {
     contenedorCarritoComprado.classList.remove("disabled");
 
 }
+function comprarCarrito() {
+    if (productosEnCarrito.length === 0) {
+        Toastify({
+            text: "No tienes productos en el carrito.",
+            duration: 3000,
+            gravity: "top",
+            position: "center",
+            backgroundColor: "#dc3545",
+        }).showToast();
+        return;
+    }
+
+    Swal.fire({
+        title: 'Selecciona tu método de pago',
+        input: 'radio',
+        inputOptions: {
+            oxxo: 'Oxxo',
+            paypal: 'PayPal',
+            debito_credito: 'Débito/Crédito'
+        },
+        inputValidator: (value) => {
+            if (!value) {
+                return 'Por favor selecciona una opción';
+            }
+        },
+        confirmButtonText: 'Pagar',
+        showCancelButton: true,
+        cancelButtonText: 'Cancelar',
+    }).then((result) => {
+        if (result.isConfirmed) {
+            const metodo = result.value;
+            let metodoSeleccionado = "";
+
+            switch (metodo) {
+                case "oxxo":
+                    metodoSeleccionado = "Oxxo";
+                    break;
+                case "paypal":
+                    metodoSeleccionado = "PayPal";
+                    break;
+                case "debito_credito":
+                    metodoSeleccionado = "Débito/Crédito";
+                    break;
+            }
+
+            // Vacía el carrito después de seleccionar el método de pago
+            productosEnCarrito.length = 0;
+            localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
+            
+            // Actualiza la vista
+            cargarProductosCarrito();
+
+            Toastify({
+                text: `¡Gracias! Tu pedido está en camino. Método de pago: ${metodoSeleccionado}`,
+                duration: 3000,
+                gravity: "top",
+                position: "center",
+                backgroundColor: "#28a745",
+            }).showToast();
+        }
+    });
+}
