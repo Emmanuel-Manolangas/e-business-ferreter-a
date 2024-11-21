@@ -417,3 +417,22 @@ main {
     background-color: var(--clr-main-light);
     color: var(--clr-main);
 }
+
+.opinion {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--clr-white);
+    background-color: transparent;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.opinion:hover{
+    background-color: var(--clr-main-light);
+    color: var(--clr-main);
+}
