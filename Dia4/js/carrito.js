@@ -184,6 +184,22 @@ function comprarCarrito() {
                     metodoSeleccionado = "Débito/Crédito";
                     break;
             }
+            
+            const historialPedidos = JSON.parse(localStorage.getItem("historialPedidos")) || [];
+            const nuevoPedido = {
+                fecha: new Date().toLocaleDateString(),
+                total: productosEnCarrito.reduce((acc, producto) => acc + producto.precio * producto.cantidad, 0),
+                productos: productosEnCarrito.map(producto => ({
+                    titulo: producto.titulo,
+                    cantidad: producto.cantidad,
+                    precio: producto.precio
+                })),
+                metodo: metodoSeleccionado
+            };
+
+
+            historialPedidos.push(nuevoPedido);
+            localStorage.setItem("historialPedidos", JSON.stringify(historialPedidos));
 
             // Vacía el carrito después de seleccionar el método de pago
             productosEnCarrito.length = 0;
